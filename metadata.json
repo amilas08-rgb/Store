@@ -1,0 +1,8 @@
+{
+  "name": "StoreFlow - Google Sheets ERP & POS",
+  "description": "نظام احترافي لإدارة المحلات التجارية ونقاط البيع والمخزون والمحاسبة بالدرهم المغربي مع اعتماد Google Sheets كقاعدة بيانات مركزية AppSheet-style.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

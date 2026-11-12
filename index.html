@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StoreFlow - Google Sheets ERP & POS</title>
+    <meta name="description" content="نظام احترافي متكامل لإدارة المحلات التجارية ونقاط البيع والمخزون والمحاسبة بالدرهم المغربي مع اعتماد Google Sheets كقاعدة بيانات مركزية" />
+    <meta property="og:title" content="StoreFlow - Google Sheets ERP & POS" />
+    <meta property="og:description" content="نظام احترافي متكامل لإدارة المحلات التجارية ونقاط البيع والمخزون والمحاسبة بالدرهم المغربي مع اعتماد Google Sheets كقاعدة بيانات مركزية" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+    <style>
+      @media print {
+        body {
+          background: white !important;
+          color: black !important;
+        }
+        .no-print {
+          display: none !important;
+        }
+        .print-only {
+          display: block !important;
+        }
+        @page {
+          margin: 5mm;
+        }
+      }
+      @media screen {
+        .print-only {
+          display: none !important;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-slate-950 text-slate-100 antialiased font-sans selection:bg-amber-500 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
